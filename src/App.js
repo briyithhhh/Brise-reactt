@@ -1,9 +1,11 @@
 import React from 'react'
+import Home from './pages/home'
+// import Banner from './components/Banner'
 
 function App () {
   return (
     <div className='App'>
-      <h1>Hola mundo!</h1>
+      <Home />
     </div>
   )
 }

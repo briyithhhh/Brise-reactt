@@ -1,0 +1,41 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 216, 211);
+  padding: 0 1rem;
+  box-shadow: 0 2px 4px rgba(255, 245, 109, 0.432);
+  color: #2b2b2b;
+}
+
+.Brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(70, 31, 31);
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-style: italic;
+}
+
+.elements {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+
+}
+
+.element{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.elements :hover{
+  background-color: rgb(255, 187, 155);
+  color: #ffffff;
+}
+
+.element a{
+  text-decoration: none;
+  color: #333;
+}

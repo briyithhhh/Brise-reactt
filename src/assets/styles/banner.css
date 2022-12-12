@@ -1,0 +1,74 @@
+.banner{
+  margin-top: 20px;
+  max-width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 80vh;
+}
+
+.banner img{
+  width: 100%;
+}
+
+.banner h1{
+  position: absolute;
+  top:47%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: rgb(128, 128, 128);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.banner > h1 > span {
+  color: #424242;
+  font-size: 5rem;
+  font-weight: 400;
+  display: block;
+  margin-top: 0.5rem;
+  font-family: 'alegreya', sans-seri;
+  font-style: italic;
+}
+
+.banner > h1 > span:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.banner > p {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -500%);
+  color: rgb(66, 19, 0);
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+}
+
+.banner > a.banner-btn {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -300%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'alegreya', sans-seri;
+  padding: 10px 40px;
+  border-radius: 100px;
+  background-color: #f19a9a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.banner > a.banner-btn:hover {
+  background-color: #f7c7c7;
+  cursor: pointer;
+  color: #424242;
+}
