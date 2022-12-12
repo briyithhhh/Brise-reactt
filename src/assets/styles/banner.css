@@ -39,7 +39,7 @@
 
 .banner > p {
   position: absolute;
-  top: 85%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -500%);
   color: rgb(66, 19, 0);
