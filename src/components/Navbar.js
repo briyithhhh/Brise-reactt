@@ -2,10 +2,14 @@
 import React from 'react'
 import '../assets/styles/Navbar.css'
 
-function Navbar ({ brand, navlinks }) {
+function Navbar ({ image, navlinks }) {
   return (
     <nav className='navbar'>
-      <h1 className='Brand'>{brand}</h1>
+      <img
+        src={image}
+        alt='logo'
+        className='logo-img'
+      />
       <ul className='elements'>
         {
           navlinks.map((element, index) => {

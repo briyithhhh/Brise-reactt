@@ -2,19 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(255, 216, 211);
+  background-color: #ffd8d3;
   padding: 0 1rem;
   box-shadow: 0 2px 4px rgba(255, 245, 109, 0.432);
   color: #2b2b2b;
 }
 
-.Brand {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: rgb(70, 31, 31);
-  font-family: 'Roboto', sans-serif;
-  font-size: 23px;
-  font-style: italic;
+.logo-img {
+  height: 80px;
+  width: 90px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .elements {
