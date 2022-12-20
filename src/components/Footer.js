@@ -1,7 +1,8 @@
 import React from 'react'
 import '../assets/styles/Footer.css'
 import { BsWhatsapp, BsInstagram, BsFacebook } from 'react-icons/bs'
-import { MdOutgoingMail } from 'react-icons/md'
+// import { MdOutgoingMail } from 'react-icons/md'
+import { FiMail } from 'react-icons/fi'
 
 // eslint-disable-next-line react/prop-types
 function Footer ({ year, image }) {
@@ -17,7 +18,7 @@ function Footer ({ year, image }) {
           <a href='#'><BsWhatsapp className='icons' /></a>
           <a href='#'><BsInstagram className='icons' /></a>
           <a href='#'><BsFacebook className='icons' /></a>
-          <a href='#'><MdOutgoingMail className='icons' /></a>
+          <a href='#'><FiMail className='icons' /></a>
         </div>
         <ul className='container-menu'>
           <li className='item'>Privacidad</li>
