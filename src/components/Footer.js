@@ -1,7 +1,6 @@
 import React from 'react'
 import '../assets/styles/Footer.css'
 import { BsWhatsapp, BsInstagram, BsFacebook } from 'react-icons/bs'
-// import { MdOutgoingMail } from 'react-icons/md'
 import { FiMail } from 'react-icons/fi'
 
 // eslint-disable-next-line react/prop-types
