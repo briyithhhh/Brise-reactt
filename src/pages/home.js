@@ -61,7 +61,7 @@ function Home () {
         image={BannerImg}
         title='Brisé'
         description='〰️"A mal tiempo, un buen postre"〰️'
-        button='leer mas'
+        button='Leer más'
       />
       <Cards
         data={cardsData}

@@ -10,16 +10,21 @@ function Banner ({ title, image, description, button }) {
         alt='Banner'
         className='banner-img'
       />
-      <h1>
-        <span className='banner-title'>{title}</span>
-      </h1>
+      <div className='container' alt='fix'>
+        <h1>
+          <div className='banner-title'>
+            {title}
+          </div>
+        </h1>
 
-      <p className='banner-subtitle'>{description}
-      </p>
+        <p className='banner-subtitle'>
+          {description}
+        </p>
 
-      <a href='#' className='banner-btn'>
-        {button}
-      </a>
+        <a href='#' className='banner-btn'>
+          {button}
+        </a>
+      </div>
     </div>
   )
 }

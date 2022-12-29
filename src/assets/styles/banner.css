@@ -1,10 +1,19 @@
 .banner{
-  margin-top: 20px;
+  /* margin-top: 20px; */
   max-width: 100%;
-  margin: auto;
+  /* margin: auto; */
   border-radius: 5px;
-  overflow: hidden;
-  height: 100vh;
+  /* overflow: hidden; */
+  height: 90vh;
+}
+
+.banner > .container {
+  display: flex;
+  margin-top: -50vh;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .banner img{
@@ -13,37 +22,39 @@
   object-fit: cover;
 }
 
-.banner h1{
+.banner > .container h1{
   position: absolute;
-  top:47%;
-  left:50%;
-  transform: translate(-50%, -50%);
+  /* top:47%;
+  left:50%; */
+  /* transform: translate(-50%, -50%); */
+  margin-top: 0;
   color: rgb(128, 128, 128);
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
 }
 
-.banner > h1 > span {
+.banner > .container > h1 > div {
   color: #424242;
   font-size: 5rem;
   font-weight: 400;
   display: block;
-  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
   font-family: 'alegreya', sans-seri;
   font-style: italic;
 }
 
-.banner > h1 > span:hover {
+.banner > .container > h1 > div:hover {
   color: #ffffff;
   cursor: pointer;
 }
 
-.banner > p {
+.banner > .container > p {
   position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -500%);
+  /* top: 75%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -500%); */
+  margin-top: 8rem;
   color: rgb(66, 19, 0);
   font-size: 1.5rem;
   font-weight: 400;
@@ -52,24 +63,25 @@
   font-style: oblique;
 }
 
-.banner > a.banner-btn {
+.banner > .container > a.banner-btn {
   position: absolute;
-  top: 83%;
-  left: 50%;
-  transform: translate(-50%, -300%);
+  /* top: 83%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -300%); */
+  margin-top: 15rem;
   text-decoration: none;
   color: #fff;
   font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
-  font-family: 'alegreya', sans-seri;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 10px 40px;
   border-radius: 100px;
   background-color: #f19a9a;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.banner > a.banner-btn:hover {
+.banner > .container > a.banner-btn:hover {
   background-color: #f7c7c7;
   cursor: pointer;
   color: #424242;

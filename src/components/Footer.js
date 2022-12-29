@@ -2,6 +2,9 @@ import React from 'react'
 import '../assets/styles/Footer.css'
 import { BsWhatsapp, BsInstagram, BsFacebook } from 'react-icons/bs'
 import { FiMail } from 'react-icons/fi'
+import moment from 'moment'
+
+const footerDate = new Date()
 
 // eslint-disable-next-line react/prop-types
 function Footer ({ year, image }) {
@@ -26,7 +29,7 @@ function Footer ({ year, image }) {
           <li className='item'>Nosotros</li>
           <li className='item'>Atención al cliente</li>
         </ul>
-        <span className='copyright'>{year}, Brisé Coffee & Bakery. Todos los derechos reservados</span>
+        <span className='copyright'>© {moment(footerDate).format('YYYY')} Todos los derechos reservados. Brisé Coffee & Bakery</span>
       </footer>
     </>
   )
