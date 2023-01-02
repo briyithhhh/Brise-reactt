@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5d1666ef.css",
+    "main.js": "/static/js/main.19e4b5ca.js",
+    "static/js/787.96772e3c.chunk.js": "/static/js/787.96772e3c.chunk.js",
+    "static/media/bannerr.jpg": "/static/media/bannerr.f06c4a021584e7263363.jpg",
+    "static/media/postre2.jpg": "/static/media/postre2.41bdb86d21528f0b074e.jpg",
+    "static/media/postre1.jpg": "/static/media/postre1.a20a458e7a8579246c57.jpg",
+    "static/media/postre.jpg": "/static/media/postre.98162124e3034392819e.jpg",
+    "static/media/postre3.jpg": "/static/media/postre3.3a265de3a9e819e8d393.jpg",
+    "static/media/brisee.png": "/static/media/brisee.3e91fd0f933f5e094357.png",
+    "static/media/logo.png": "/static/media/logo.cf6d3eb78506019af2f7.png",
+    "index.html": "/index.html",
+    "main.5d1666ef.css.map": "/static/css/main.5d1666ef.css.map",
+    "main.19e4b5ca.js.map": "/static/js/main.19e4b5ca.js.map",
+    "787.96772e3c.chunk.js.map": "/static/js/787.96772e3c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d1666ef.css",
+    "static/js/main.19e4b5ca.js"
+  ]
+}
