@@ -9,7 +9,9 @@ function Cards ({ data }) {
         data.map((card, index) => {
           return (
             <div key={index} className='cards' style={{ zIndex: '999999' }}>
-              <img src={card.image} />
+              <div className='card-img'>
+                <img src={card.image} alt='Card' />
+              </div>
               <h1>{card.title}</h1>
               <p>{card.description}</p>
             </div>
